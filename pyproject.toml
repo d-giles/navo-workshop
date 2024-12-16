@@ -1,0 +1,41 @@
+[project]
+name = "navo-workshop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "astropy>6.0",
+    "astroquery>=0.4.7",
+    "jupyterlab>4.0",
+    "jupytext>1.14",
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "packaging>=24.2",
+    "pyvo>=1.4.2",
+    "scipy>=1.11",
+]
+
+[tool.poetry]
+name = "navo-workshop"
+version = "0.1.0"
+description = ""
+authors = ["NASA-NAVO developers"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26"
+astropy = "^6.0"
+matplotlib = "^3.8"
+jupyterlab = "^4.0"
+pyvo = "^1.4.2"
+scipy = "^1.11"
+jupytext = "^1.14"
+packaging = "^24.2"
+astroquery = "^0.4.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
